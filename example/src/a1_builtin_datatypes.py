@@ -1,0 +1,12 @@
+if __name__ == "__main__":
+    print(f"{type(10)=}")
+    print(f"{type(10.3)=}")
+    print(f"{type(10j+3)=}")
+    print(f"{type(True)=}")
+    print(f"{type("hello world")=}")
+    print(f"{type(b"hello world")=}")
+    print(f"{type((1,2,3))=}")
+    print(f"{type([1,2,3])=}")
+    print(f"{type({1,2,3})=}")
+    print(f"{type(frozenset({1,2,3}))=}")
+    print(f"{type({1:"a",2:"b",3:"c"})=}")
