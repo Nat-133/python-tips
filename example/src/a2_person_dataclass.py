@@ -31,4 +31,3 @@ if __name__ == "__main__":
     print(f"\n{bob.name=}")
 
     frozen_bob.name = "not bob"
-
