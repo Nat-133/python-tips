@@ -2,7 +2,7 @@ from collections import namedtuple
 import uuid
 
 
-Person = namedtuple("Person", ["name", "id"])
+Person: type = namedtuple("Person", ["name", "id"])
 
 
 def create_person(name: str) -> Person:
